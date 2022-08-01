@@ -1,0 +1,65 @@
+* {
+  background-color: darkgray;
+}
+
+.container {
+  background-color: rgb(166, 49, 49);
+  align-items: center;
+  border: solid 4px black;
+  text-align: center;
+  width: 50rem;
+  padding-top: 50px;
+}
+
+.calcInput1 {
+  background-color: #8a2be2;
+  color: yellowgreen;
+  text-decoration-color: aqua;
+  font-size: 20px;
+  width: 200px;
+  height: 300px;
+}
+
+.calcInput1::placeholder {
+  color: aqua;
+}
+
+.calcOperator {
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  width: 200px;
+  height: 150px;
+}
+
+.calcOperator::placeholder {
+  color: tomato;
+}
+
+.calcInput2 {
+  background-color: #8a2be2;
+  font-size: 20px;
+  width: 200px;
+  height: 300px;
+}
+
+.calcInput2::placeholder {
+  color: aqua;
+}
+
+.output {
+  background-color: rgb(166, 49, 49);
+  text-align: center;
+  color: #fff;
+  font-size: 6rem;
+  width: 15rem;
+  bottom: 22rem;
+  margin: 0 17rem;
+  padding: 1rem 0rem;
+}
+
+#submit {
+  border-radius: 10px;
+  width: 5rem;
+  height: 5rem;
+}
